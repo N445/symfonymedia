@@ -1,0 +1,30 @@
+{
+  "name": "n445/symfonymedia",
+  "description": "Bundle symfony pour l'upload de media",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "keywords": [
+    "N445",
+    "Media",
+    "Symfony"
+  ],
+  "authors": [
+    {
+      "name": "Ozanges",
+      "email": "contact@ozanges.fr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "^2.7",
+    "symfony/http-kernel": "*",
+    "doctrine/annotations": "*",
+    "symfony/validator": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "N445\\SymfonyMedia\\": "src"
+    }
+  },
+  "minimum-stability": "stable"
+}
