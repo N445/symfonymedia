@@ -21,7 +21,7 @@ class AppKernel extends Kernel
     {
         $bundles = [
             // ...
-            new Oz\Contact\OzImage(),
+            new n445\Contact\OzImage(),
         ];
 
         // ...
